@@ -44,12 +44,12 @@ const appConfig = {
         icon: React.createElement(ManageSearch, { sx: { fontSize: 28 } })
       },
       {
-        title: "Write a report based on my website data",
+        title: "I want to visualize the data of the cell with id kdpwx-72 during the first cycle",
         color: "#8b5cf6",
         icon: React.createElement(TableChart, { sx: { fontSize: 28 } })
       },
       {
-        title: "Write a tailored, engaging content, with a focus quality",
+        title: "Plot a comparison graph of the cell with id kdpwx-72 and rqmzt-19",
         color: "#06b6d4",
         icon: React.createElement(AutoGraph, { sx: { fontSize: 28 } })
       },

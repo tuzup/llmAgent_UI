@@ -193,7 +193,7 @@ const ChatInput = () => {
                                 value={message}
                                 onChange={handleInputChange}
                                 onKeyDown={handleKeyDown}
-                                disabled={appConfig.chat.disableInputWhileTyping || false}
+                                disabled={appConfig.chat.disableInputWhileTyping?isTyping:false }
                                 sx={{
                                     position: "relative",
                                     zIndex: 2,
@@ -218,8 +218,8 @@ const ChatInput = () => {
                                 : appConfig.theme.borderColor,
                             color: "white",
                             borderRadius: 2,
-                            width: 50,
-                            height: 50,
+                            width: 45,
+                            height: 45,
                             "&:hover": {
                                 backgroundColor: message.trim() && !isTyping
                                     ? appConfig.theme.primaryHoverColor

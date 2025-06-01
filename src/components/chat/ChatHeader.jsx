@@ -1,10 +1,17 @@
 import React from "react";
-import { Box, Typography, Chip } from "@mui/material";
+import { Box, IconButton, Button } from "@mui/material";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import AddIcon from "@mui/icons-material/Add";
 import appConfig from "../../config/appConfig";
 import { useChat } from "../../context/ChatContext";
 
 const ChatHeader = () => {
   const { handleNewChat } = useChat();
+
+  const handleBack = () => {
+    console.log("Back button clicked");
+  };
+
   return (
     <Box
       sx={{
@@ -16,47 +23,26 @@ const ChatHeader = () => {
         borderBottom: `1px solid ${appConfig.theme.borderColor}`,
       }}
     >
-      <Typography
-        variant="body2"
-        color={appConfig.theme.secondaryTextColor}
-        sx={{ fontSize: "0.875rem" }}
+      {/* Left side - Back button */}
+      <IconButton
+        onClick={handleBack}
+        sx={{ color: appConfig.theme.secondaryTextColor }}
       >
-        {appConfig.uiText.headerUrl}
-      </Typography>
-      
-      <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-        <Chip
-          label={appConfig.uiText.headerChip}
-          size="small"
-          sx={{
-            backgroundColor: appConfig.theme.lightBgColor,
-            color: appConfig.theme.secondaryTextColor,
-            border: `1px solid ${appConfig.theme.borderColor}`,
-            fontSize: "0.75rem",
-          }}
-        />
-        
-        <Box
-          sx={{
-            backgroundColor: appConfig.theme.primaryColor,
-            color: "white",
-            px: 2.5,
-            py: 1,
-            borderRadius: "8px",
-            fontSize: "0.875rem",
-            fontWeight: 500,
-            cursor: "pointer",
-            transition: "all 0.2s ease",
-            "&:hover": {
-              backgroundColor: appConfig.theme.primaryHoverColor,
-              transform: "translateY(-1px)",
-            },
-          }}
-          onClick={handleNewChat}
-        >
-          {appConfig.uiText.newChatButton}
-        </Box>
-      </Box>
+        <ArrowBackIcon />
+      </IconButton>
+
+      {/* Right side - New Chat button */}
+      <Button
+        onClick={handleNewChat}
+        startIcon={<AddIcon fontSize="small" />}
+        variant="outlined"
+        size="small"
+        sx={{
+          borderRadius: 2,
+        }}
+      >
+        {appConfig.uiText.newChatButton}
+      </Button>
     </Box>
   );
 };

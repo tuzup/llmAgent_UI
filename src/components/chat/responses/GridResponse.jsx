@@ -76,11 +76,11 @@ const GridResponse = ({ content }) => {
                     paginationPageSize={appConfig.chat.gridResponse.paginationPageSize || 10}
                     paginationAutoPageSize={appConfig.chat.gridResponse.paginationAutoPageSize || false}
                     domLayout="normal"
-                    onGridReady={(params) => {
-                        setTimeout(() => {
-                            params.api.sizeColumnsToFit();
-                        }, 0);
-                    }}
+                    // onGridReady={(params) => {
+                    //     setTimeout(() => {
+                    //         params.api.sizeColumnsToFit();
+                    //     }, 0);
+                    // }}
                 />
             </div>
 
