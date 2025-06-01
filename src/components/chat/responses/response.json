@@ -1,0 +1,33 @@
+[
+  {
+    "id": "unique-id", 
+    "responseType": "markdown",
+    "content": "# Hello World\nThis is a **markdown** response.",
+    "sender": "bot",
+    "timestamp": "2023-06-01T12:34:56.789Z"
+  },
+  {
+    "id": "unique-id",
+    "responseType": "chart",
+    "content": {
+      "chartType": "column",
+      "chartOptions": {
+        "title": { "text": "Monthly Revenue" },
+        "data": [],
+        "series": []
+      }
+    },
+    "sender": "bot",
+    "timestamp": "2023-06-01T12:34:56.789Z"
+  },
+  {
+    "id": "unique-id",
+    "responseType": "grid",
+    "content": {
+      "columnDefs": [],
+      "rowData": []
+    },
+    "sender": "bot",
+    "timestamp": "2023-06-01T12:34:56.789Z"
+  }
+]
