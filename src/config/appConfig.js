@@ -11,6 +11,11 @@ const appConfig = {
     threshold: 2, // Minimum characters before triggering autocomplete
     enabled: true, // Enable/disable autocomplete feature
     caseSensitive: false, // Whether autocomplete should be case sensitive
+    suggestions: {
+      enabled: true, // Enable/disable suggestions
+      maxSuggestions: 10, // Maximum number of suggestions to show
+      skipTop1InList: false, // Skip the top suggestion for the suggestions list, it will appear in the input box
+    },
     predefinedCodes: [
       "Plot the graph",
       "graph",
@@ -18,6 +23,11 @@ const appConfig = {
       "Analyze",
       "kdpwx-72",
       "kdpwx-72-H8291",
+      "kdpwx-72-H8293",
+      "kdpwx-72-H8221",
+      "kdpwx-72-H7291",
+      "kdpwx-72-H7591",
+      "kdpwx-72-H291",
       "rqmzt-19-Z2340",
       "blxvr-08-K5823",
       "ntjqe-57-M1789",
