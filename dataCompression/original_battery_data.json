@@ -1,0 +1,1001 @@
+[
+  {
+    "C-Rate": 0.333,
+    "Capacity": 4.323,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 12.9,
+    "Temperature": 35.3,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 2.333,
+    "Capacity": 4.32,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 12.8,
+    "Temperature": 35.1,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 2.333,
+    "Capacity": 4.32,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 12.8,
+    "Temperature": 35.1,
+    "Voltage": 4.68
+  },
+  {
+    "C-Rate": 0.333,
+    "Capacity": 4.315,
+    "Charge/Discharge": "Charge",
+    "Cycle": 2,
+    "Energy": 12.7,
+    "Temperature": 35.0,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 2.0,
+    "Capacity": 4.31,
+    "Charge/Discharge": "Charge",
+    "Cycle": 2,
+    "Energy": 12.6,
+    "Temperature": 34.9,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 0.5,
+    "Capacity": 4.305,
+    "Charge/Discharge": "Charge",
+    "Cycle": 2,
+    "Energy": 12.5,
+    "Temperature": 34.8,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 2.5,
+    "Capacity": 4.3,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 12.4,
+    "Temperature": 34.7,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 0.333,
+    "Capacity": 4.295,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 12.3,
+    "Temperature": 34.6,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 2.333,
+    "Capacity": 10.29,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 12.2,
+    "Temperature": 34.5,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 0.333,
+    "Capacity": 4.285,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 12.1,
+    "Temperature": 34.4,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 2.333,
+    "Capacity": 4.28,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 12.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.23,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.225,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.22,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 10.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.215,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.21,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.205,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.2,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.195,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.19,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 10.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.185,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.18,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 12.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.175,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.17,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.165,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.16,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 11.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.155,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.15,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.145,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.14,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.135,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 11.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.13,
+    "Charge/Discharge": "Charge",
+    "Cycle": 1,
+    "Energy": 11.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.125,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.12,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.115,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.11,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.105,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 1,
+    "Energy": 10.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.105,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.095,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.09,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.085,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.08,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 12.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.075,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.07,
+    "Charge/Discharge": "Charge",
+    "Cycle": 2,
+    "Energy": 11.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.065,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.06,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.055,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.05,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.045,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.04,
+    "Charge/Discharge": "Charge",
+    "Cycle": 2,
+    "Energy": 11.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.035,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.03,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.025,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.02,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 4.015,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 4.01,
+    "Charge/Discharge": "Charge",
+    "Cycle": 2,
+    "Energy": 10.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 4.005,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 4.0,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.995,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.99,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.985,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.98,
+    "Charge/Discharge": "Charge",
+    "Cycle": 2,
+    "Energy": 12.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.975,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.97,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.965,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.96,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.955,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.95,
+    "Charge/Discharge": "Charge",
+    "Cycle": 2,
+    "Energy": 11.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.945,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.94,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.935,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.93,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 11.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.925,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 2,
+    "Energy": 10.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.92,
+    "Charge/Discharge": "Charge",
+    "Cycle": 3,
+    "Energy": 10.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.915,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.91,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.905,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.9,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.895,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.89,
+    "Charge/Discharge": "Charge",
+    "Cycle": 3,
+    "Energy": 10.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.885,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.88,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 12.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.875,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.87,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.865,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.86,
+    "Charge/Discharge": "Charge",
+    "Cycle": 3,
+    "Energy": 11.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.855,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.85,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.845,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.84,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.835,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.83,
+    "Charge/Discharge": "Charge",
+    "Cycle": 3,
+    "Energy": 11.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.825,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.82,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.815,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.81,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.805,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.8,
+    "Charge/Discharge": "Charge",
+    "Cycle": 3,
+    "Energy": 10.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.795,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.79,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.785,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 10.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.78,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 12.0,
+    "Temperature": 34.3,
+    "Voltage": 3.64
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.775,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.9,
+    "Temperature": 34.4,
+    "Voltage": 3.65
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.77,
+    "Charge/Discharge": "Charge",
+    "Cycle": 3,
+    "Energy": 11.8,
+    "Temperature": 34.5,
+    "Voltage": 3.66
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.765,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.7,
+    "Temperature": 34.6,
+    "Voltage": 3.67
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.76,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.6,
+    "Temperature": 34.7,
+    "Voltage": 3.68
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.755,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.5,
+    "Temperature": 34.8,
+    "Voltage": 3.69
+  },
+  {
+    "C-Rate": 3.8,
+    "Capacity": 3.75,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.4,
+    "Temperature": 34.9,
+    "Voltage": 3.7
+  },
+  {
+    "C-Rate": 0.3,
+    "Capacity": 3.745,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.3,
+    "Temperature": 35.0,
+    "Voltage": 3.71
+  },
+  {
+    "C-Rate": 2.8,
+    "Capacity": 3.74,
+    "Charge/Discharge": "Charge",
+    "Cycle": 3,
+    "Energy": 11.2,
+    "Temperature": 35.1,
+    "Voltage": 3.72
+  },
+  {
+    "C-Rate": 1.3,
+    "Capacity": 3.735,
+    "Charge/Discharge": "Discharge",
+    "Cycle": 3,
+    "Energy": 11.1,
+    "Temperature": 35.2,
+    "Voltage": 3.73
+  }
+]
