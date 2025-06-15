@@ -27,7 +27,7 @@ const UserMessage = ({ message }) => (
         whiteSpace: "pre-wrap"
       }}
     >
-      {message.text}
+      {message.content}
     </Paper>
   </Box>
 );

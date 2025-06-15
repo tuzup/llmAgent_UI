@@ -15,6 +15,7 @@ const BotMessage = ({ message }) => {
       case "grid":
         return <GridResponse content={message.content} />;
       case "markdown":
+        return <MarkdownResponse content={message.content} />;
       default:
         return <MarkdownResponse content={message.content} />;
     }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container } from "@mui/material";
+import { Box, Collapse, Container, Drawer } from "@mui/material";
 import appConfig from "../config/appConfig";
 import { useChat } from "../context/ChatContext";
 
@@ -10,6 +10,8 @@ import UserMessage from "./chat/UserMessage";
 import BotMessage from "./chat/BotMessage";
 import TypingIndicator from "./chat/TypingIndicator";
 import ChatInput from "./chat/ChatInput";
+import SavedChat from "./chat/SavedChat";
+import SaveChatModal from "./chat/SaveChatModal";
 
 
 /**
@@ -38,7 +40,9 @@ const ChatArea = () => {
         messages,
         isTyping,
         messagesEndRef,
+        savedDrawerOpen
     } = useChat();
+
 
     return (
         <Box
@@ -54,51 +58,102 @@ const ChatArea = () => {
             {/* Header Component */}
             <ChatHeader />
 
-            {/* Chat Content */}
-            <Box sx={{
-                flex: 1,
-                display: "flex",
-                flexDirection: "column",
-                overflowY: "auto",
-            }}>
-                {messages.length === 0 ? (
-                    /* Welcome Screen Component */
-                    <WelcomeScreen />
-                ) : (
-                    /* Chat Messages */
-                    <Box
-                        sx={{
-                            flex: 1,
-                            display: "flex",
-                            justifyContent: "center",
-                            py: 4,
-                        }}
-                    >
-                        <Container
-                            maxWidth="md"
-                            disableGutters={true} 
-                            sx={{ pb: appConfig.layout?.chatInput?.bottomPadding || 5 }}
-                        >
-                            {messages.map((msg) =>
-                                msg.sender === "user" ? (
-                                    <UserMessage key={msg.id} message={msg} />
-                                ) : (
-                                    <BotMessage key={msg.id} message={msg} />
-                                )
-                            )}
+            {/* Save Chat Modal */}
+            <SaveChatModal />
 
-                            {isTyping &&
-                                <Box sx={{ pb: 5 }}>
-                                    <TypingIndicator />
-                                </Box>}
-                            <div ref={messagesEndRef} />
-                        </Container>
+            {/* Content area with messages and drawer */}
+            <Box
+                sx={{
+                    display: "flex",
+                    flexDirection: "row",
+                    flex: 1,
+                    position: "relative",
+                    overflow: "hidden",
+                }}
+            >
+                 {/* Chat History Drawer  */}
+                <Drawer
+                    variant="persistent"
+                    anchor="left"
+                    open={savedDrawerOpen}
+                    sx={{
+                        width: savedDrawerOpen ? appConfig.layout?.savedChat?.drawerWidth || 300 : 0,
+                        flexShrink: 0,
+                        position: "relative",
+                        '& .MuiDrawer-paper': {
+                            width: appConfig.layout?.savedChat?.drawerWidth || 300,
+                            position: "relative",
+                            height: "100%",
+                            borderRight: `1px solid ${appConfig.theme.borderColor}`,
+                            boxSizing: 'border-box',
+                        },
+                    }}
+                >
+                    <SavedChat/>
+                </Drawer>
+
+                {/* Main Chat Content */}
+                <Box
+                    sx={{
+                        flex: 1,
+                        display: "flex",
+                        flexDirection: "column",
+                        backgroundColor: "#ffffff",
+                        transition: theme => theme.transitions.create('width', {
+                            easing: theme.transitions.easing.sharp,
+                            duration: theme.transitions.duration.leavingScreen,
+                        }),
+                        width: savedDrawerOpen ? `calc(100% - ${appConfig.layout?.savedChat?.drawerWidth || 300}px)` : '100%',
+                        overflow: "hidden",
+                    }}
+                >
+                    {/* Chat Messages */}
+                    <Box sx={{
+                        flex: 1,
+                        display: "flex",
+                        flexDirection: "column",
+                        overflowY: "auto",
+                    }}>
+                        {messages.length === 0 ? (
+                            /* Welcome Screen Component */
+                            <WelcomeScreen />
+                        ) : (
+                            /* Chat Messages */
+                            <Box
+                                sx={{
+                                    flex: 1,
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    py: 4,
+                                }}
+                            >
+                                <Container
+                                    maxWidth="md"
+                                    disableGutters={true}
+                                    sx={{ pb: appConfig.layout?.chatInput?.bottomPadding || 5 }}
+                                >
+                                    {messages.map((msg) =>
+                                        msg.role === "user" ? (
+                                            <UserMessage key={msg.id} message={msg} />
+                                        ) : (
+                                            <BotMessage key={msg.id} message={msg} />
+                                        )
+                                    )}
+
+                                    {isTyping &&
+                                        <Box sx={{ pb: 5 }}>
+                                            <TypingIndicator />
+                                        </Box>}
+                                    <div ref={messagesEndRef} />
+                                </Container>
+                            </Box>
+                        )}
                     </Box>
-                )}
-            </Box>
 
-            {/* Input Component - Fixed at bottom */}
-            <ChatInput />
+                    {/* Input Component - Fixed at bottom */}
+                    <ChatInput />
+                </Box>
+            </Box>
         </Box>
     );
 };

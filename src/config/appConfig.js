@@ -70,6 +70,12 @@ const appConfig = {
     headerUrl: "app.centra.com/dashboard",
     headerChip: "CentraAI 2.0",
     newChatButton: "New Chat",
+    savedChatTitle: "Saved Chats",
+    showSavedToolTip: "Show Saved Chats",
+    hideSavedToolTip: "Hide Saved Chats",
+    saveToolTip: "Save Current Chat",
+    noSavedChats: "No saved chats found",
+    noMatchingChats: "No matching chats found",
   },
   
   // Chat settings
@@ -89,12 +95,17 @@ const appConfig = {
       paginationAutoPageSize: true, // Automatically adjust page size based on container size, if true paginationPageSize will be ignored
     }
   },
+
+  saveChat:{
+    maxTitleLength: 50,
+  },
   
   // Theme and styling
   theme: {
     primaryColor: "#3674B5",
     primaryHoverColor: "#5b5bd6",
     secondaryTextColor: "#64748b",
+    complementaryColor: "#ffffff",
     successTextColor:'#16a34a',
     lightBgColor: "#f8fafc",
     borderColor: "#e2e8f0",
@@ -103,6 +114,8 @@ const appConfig = {
     userMessageText: "#1e293b",
     botMessageText: "#334155",
     typingIndicatorColor: "#6366f1",
+    warningBgColor: "#B22222",
+    selectedChatBgColor: "#F2F2F2",
   },
   
   // Layout settings
@@ -116,7 +129,11 @@ const appConfig = {
     sidebar: {
       width: 80, // Width of the sidebar in pixels
       showSidebar: true, // Whether to show the sidebar or not
+    },
+    savedChat: {
+      drawerWidth: 300, // Width of the saved chat drawer
     }
+
   },
   
   // Sidebar configuration

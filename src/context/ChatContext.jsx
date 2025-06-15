@@ -64,6 +64,13 @@ export const ChatProvider = ({ children }) => {
     const [messages, setMessages] = useState([]);
     const [isTyping, setIsTyping] = useState(false);
     const messagesEndRef = useRef(null);
+    const [savedDrawerOpen, setSavedDrawerOpen] = useState(false);
+    const [saveChatModalOpen, setSaveChatModalOpen] = useState(false);
+    const [savedChats, setSavedChats] = useState([]);
+    const [selectedChatId, setSelectedChatId] = useState(null);
+    const [deleteChatModalOpen, setDeleteChatModalOpen] = useState(false);
+    const [pendingDeleteChat, setPendingDeleteChat] = useState(null);
+
 
     // Auto-scroll to bottom whenever messages change
     useEffect(() => {
@@ -77,8 +84,8 @@ export const ChatProvider = ({ children }) => {
     const handleSendMessage = (messageText) => {
         const userMessage = {
             id: Date.now(),
-            text: messageText,
-            sender: "user",
+            content: messageText,
+            role: "user",
             timestamp: new Date(),
         };
 
@@ -142,13 +149,79 @@ export const ChatProvider = ({ children }) => {
         setIsTyping(false);
     };
 
+    const toggleSavedDrawer = () => {
+        setSavedDrawerOpen(prevState => !prevState);
+    };
+    // Function to open the save chat modal
+    const toggleSaveChatModal = () => {
+        setSaveChatModalOpen(prevState => !prevState);
+    };
+
+    // Function to save the current chat
+    const saveChat = (title) => {
+        if (messages.length > 0) {
+            const newSavedChat = {
+                id: Date.now(),
+                title: title || `Chat ${savedChats.length + 1}`,
+                messages: [...messages],
+                timestamp: new Date(),
+                date: new Date().toLocaleDateString(),
+            };
+            setSavedChats(prev => [...prev, newSavedChat]);
+            setSelectedChatId(newSavedChat.id);
+            console.log("Chat saved:", newSavedChat);
+            setSaveChatModalOpen(false);
+        }
+        else {
+            console.warn("No messages to save.");
+        }
+    };
+
+    const handleSelectChat = (chatId) => {
+        const selectedChat = savedChats.find(chat => chat.id === chatId);
+        if (selectedChat) {
+            setMessages(selectedChat.messages);
+            setSelectedChatId(chatId);
+            setIsTyping(false);
+            // setSavedDrawerOpen(false); // Close the drawer after selecting a chat
+        }
+    };
+
+    const deleteSavedChat = (chatId) => {
+        if (selectedChatId === chatId) {
+            setMessages([]);
+            setSelectedChatId(null);
+        }
+        setSavedChats(prev => prev.filter(chat => chat.id !== chatId));
+    };
+
+    const toggleDeleteChatModal = (chat = null) => {
+        setDeleteChatModalOpen(prev => !prev);
+        if (chat!== undefined) {
+            setPendingDeleteChat(chat);
+        }
+    };
+
+
     // Values to be exposed through the context
     const contextValue = {
         messages,
         isTyping,
         messagesEndRef,
+        savedDrawerOpen,
+        saveChatModalOpen,
+        savedChats,
+        selectedChatId,
+        deleteChatModalOpen,
+        pendingDeleteChat,
         handleSendMessage,
         handleNewChat,
+        toggleSavedDrawer,
+        toggleSaveChatModal,
+        saveChat,
+        handleSelectChat,
+        deleteSavedChat,
+        toggleDeleteChatModal,
     };
 
     return (

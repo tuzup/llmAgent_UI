@@ -5,7 +5,7 @@ import appConfig from "../../config/appConfig";
 import { useChat } from "../../context/ChatContext";
 
 const ChatInput = () => {
-    const { handleSendMessage: sendMessage, isTyping } = useChat();
+    const { handleSendMessage: sendMessage, isTyping, savedDrawerOpen } = useChat();
     const [message, setMessage] = useState("");
     const [suggestion, setSuggestion] = useState("");
     const [additionalSuggestions, setAdditionalSuggestions] = useState([]); // Store additional matches
@@ -146,7 +146,7 @@ const ChatInput = () => {
             sx={{
                 position: "fixed",
                 bottom: 0,
-                left: appConfig.layout?.sidebar?.width || 0,
+                left: (appConfig.layout?.sidebar?.width || 0) + (savedDrawerOpen ? (appConfig.layout?.savedChat?.drawerWidth || 300) : 0),
                 right: 0,
                 zIndex: 100,
                 display: "flex",
