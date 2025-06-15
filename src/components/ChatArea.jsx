@@ -87,6 +87,7 @@ const ChatArea = () => {
                             borderRight: `1px solid ${appConfig.theme.borderColor}`,
                             boxSizing: 'border-box',
                         },
+                        transition:  "width 0.2s ease-in-out",
                     }}
                 >
                     <SavedChat/>
@@ -99,11 +100,6 @@ const ChatArea = () => {
                         display: "flex",
                         flexDirection: "column",
                         backgroundColor: "#ffffff",
-                        transition: theme => theme.transitions.create('width', {
-                            easing: theme.transitions.easing.sharp,
-                            duration: theme.transitions.duration.leavingScreen,
-                        }),
-                        width: savedDrawerOpen ? `calc(100% - ${appConfig.layout?.savedChat?.drawerWidth || 300}px)` : '100%',
                         overflow: "hidden",
                     }}
                 >

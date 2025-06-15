@@ -152,6 +152,7 @@ const ChatInput = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                transition: "left 0.2s ease-in-out",
             }}
         >
             <Box
